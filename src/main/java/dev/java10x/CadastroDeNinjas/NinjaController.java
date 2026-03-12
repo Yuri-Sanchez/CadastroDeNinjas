@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping // Aplicação para colocar todas as nossas rotas no mesmo lugar
 
-public class Controller {
+public class NinjaController {
 
     @GetMapping("/boasvindas") // Pega informações
     public String boasVindas(){
